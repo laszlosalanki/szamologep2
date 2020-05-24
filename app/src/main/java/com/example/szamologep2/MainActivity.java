@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         egy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "1";
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         ketto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "2";
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         harom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "3";
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         negy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "4";
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         ot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "5";
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         hat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "6";
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
         het.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "7";
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
         nyolc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "8";
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
         kilenc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "9";
@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
         nulla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 40)
+                if (ki.length() >= 36)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "0";
@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
         osszeadas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 39)
+                if (ki.length() >= 35)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "+";
@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
         kivonas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 39)
+                if (ki.length() >= 35)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "-";
@@ -213,7 +213,7 @@ public class MainActivity extends AppCompatActivity {
         szorzas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 39)
+                if (ki.length() >= 35)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "*";
@@ -225,7 +225,7 @@ public class MainActivity extends AppCompatActivity {
         osztas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 39)
+                if (ki.length() >= 35)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "/";
@@ -237,7 +237,7 @@ public class MainActivity extends AppCompatActivity {
         negyzet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 39)
+                if (ki.length() >= 35)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "pow";
@@ -249,7 +249,7 @@ public class MainActivity extends AppCompatActivity {
         gyok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 36)
+                if (ki.length() >= 35)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += "sqrt";
@@ -261,7 +261,7 @@ public class MainActivity extends AppCompatActivity {
         pont.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ki.length() >= 39)
+                if (ki.length() >= 35)
                     Toast.makeText(MainActivity.this, "Nem tudsz több karaktert beírni!", Toast.LENGTH_SHORT).show();
                 else {
                     ki += ".";
