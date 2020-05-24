@@ -1,0 +1,2 @@
+rootProject.name='szamologep2'
+include ':app'
